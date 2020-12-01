@@ -1,0 +1,65 @@
+
+#parallax1{
+    background-image:url(../assets/w-qjCHPZbeXCQ-unsplash.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+#parallax1 img{
+    max-width: 1200px;
+}
+
+#hello{
+    background-image: url(../assets/Trama0.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.title{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 0px;
+    padding-top: 100px;
+    z-index: 1;
+    margin: 0;
+}
+
+.hello-content-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hello-image{
+    width: 50%;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.jae{
+    max-width: 100%;
+    z-index: 1;
+}
+
+#intro-paragraph{
+    width: 50%;
+    text-align: left;
+}
+
+#intro-paragraph h2{
+    margin-top: 30px;
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+}
+
+#intro-paragraph p{
+    font-family: 'Alegreya', serif;
+    font-size: 23px;
+}
