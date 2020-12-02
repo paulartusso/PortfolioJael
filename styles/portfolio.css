@@ -27,25 +27,25 @@
 }
 
 #renew{
-    background-image: url(../r.png);
+    background-image: url(../assets/r.png);
     margin-right: 15px;
     margin-bottom: 15px;
 }
 
 #oda{
-    background-image: url(../mm2.png);
+    background-image: url(../assets/mm2.png);
     margin-left: 15px;
     margin-bottom: 15px;
 }
 
 #mau{
-    background-image: url(../vl.png);
+    background-image: url(../assets/vl.png);
     margin-right: 15px;
     margin-top: 15px;
 }
 
 #m{
-    background-image: url(../m.png);
+    background-image: url(../assets/m.png);
     margin-left: 15px;
     margin-top: 15px;
 }
@@ -70,5 +70,9 @@
     padding: 10px;
     border: none;
     width: 156px;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.see-more-button:hover{
+    cursor: pointer
 }

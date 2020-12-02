@@ -1,0 +1,11 @@
+#blog{
+    background-color: #F2D2CC;
+}
+
+#blog h1{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    margin: 0;
+    padding: 100px 100px;
+}

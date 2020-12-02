@@ -1,0 +1,57 @@
+#contact{
+    background-image: url(../assets/graphic_contacto.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.contact-modal-container{
+    background-color: #F2D2CC;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+}
+
+#inputs{
+    width: 50%;
+}
+
+.inputs-container{
+    display: flex;
+    justify-content: space-between;
+}
+.inputs-container input{
+    padding: 8px;
+    width: 49%;
+}
+
+.send-button-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.send-button-container > textarea, .send-button-container > button{
+    margin-top: 15px;
+    padding: 8px;
+    font-weight: 700;
+}
+
+#contact-info{
+    padding-left: 30px;
+}
+
+#icons{
+    display: flex;
+    flex-direction: column;
+}
+
+#icons img{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+}
