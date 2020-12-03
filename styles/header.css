@@ -42,8 +42,12 @@ main{
     align-items: center;
 }
 
-#menu-bar li{
+#menu-bar a{
     text-decoration: none;  
+    color: black;
+}
+
+#menu-bar li{
     display: inline;
     font-size: 20px;
     margin-left: 20px;
