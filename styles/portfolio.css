@@ -1,5 +1,5 @@
 #parallax2{
-    background-color: #5295f3;
+    background-color: #c3ccda;
     background-attachment: fixed;
     background-repeat: repeat;
 }
@@ -7,9 +7,9 @@
     color: ffffff;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0px;
-    font-size: 70px;
-    padding: 150px 100px;
+    font-size: 40px;
     margin: 0;
+    padding: 50px 50px;
 }
 
 #portfolio{
@@ -23,43 +23,42 @@
 
 .portfolio-images-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #renew{
     background-image: url(../assets/r.png);
-    margin-right: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 #oda{
     background-image: url(../assets/mm2.png);
-    margin-left: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 #mau{
     background-image: url(../assets/vl.png);
-    margin-right: 15px;
-    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 #m{
     background-image: url(../assets/m.png);
-    margin-left: 15px;
-    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 .portfolio-images-container div{
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
-    width: 450px;
+    height: 200px;
+    width: 250px;
 }
 
 .button-container{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .see-more-button{
@@ -75,4 +74,42 @@
 }
 .see-more-button:hover{
     cursor: pointer
+}
+
+@media only screen and (min-width: 760px) {
+    #parallax2 h1{
+        font-size: 70px;
+        padding: 150px 100px;
+    }
+    .portfolio-images-container{
+        display: flex;
+        flex-direction: row !important;
+        justify-content: center;
+    }
+    .portfolio-images-container div{
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 450px;
+    }
+    #renew{
+        background-image: url(../assets/r.png);
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    #oda{
+        background-image: url(../assets/mm2.png);
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    #mau{
+        background-image: url(../assets/vl.png);
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+    #m{
+        background-image: url(../assets/m.png);
+        margin-left: 15px;
+        margin-top: 15px;
+    }
 }

@@ -1,9 +1,9 @@
 
 #parallax1{
-    background-image:url(../assets/g2.png);
+    background-image:url(../assets/mm.png);
     background-attachment: fixed;
     background-position: center center;
-    height: 60vh;
+    height: 80vh;
 }
 
 #parallax1 img{
@@ -14,52 +14,83 @@
     background-image: url(../assets/Trama0.svg);
     background-position: 0 0;
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 100%;
 }
 
 .title{
     color: black;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    font-size: 100px;
+    font-size: 45px;
     letter-spacing: 0px;
-    padding-top: 100px;
+    padding-top: 70px;
     z-index: 1;
     margin: 0;
 }
 
 .hello-content-container{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
 .hello-image{
-    width: 50%;
-    padding-right: 20px;
+    width: 60%;
     box-sizing: border-box;
     display: flex;
     justify-content: flex-end;
-
 }
 
 .jae{
-    max-width: 100%;
-    z-index: 1;
+    display: none
 }
 
 #intro-paragraph{
-    width: 50%;
+    width: 80%;
     text-align: left;
+    padding: 30px;
 }
 
 #intro-paragraph h2{
-    margin-top: 30px;
     font-family: 'Alegreya', serif;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #intro-paragraph p{
     font-family: 'Alegreya', serif;
-    font-size: 23px;
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 760px) {
+    .title{
+        font-size: 100px;
+    }
+    .hello-image{
+        width: 50%;
+        padding-right: 20px;
+        justify-content: center;
+    }
+    #hello{
+        background-image: url(../assets/Trama0.svg);
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: 50%;
+    }
+    .jae{
+        display: block; 
+        max-width: 100%;
+        z-index: 1;
+    }    
+    #intro-paragraph{
+        width: 50%;
+        text-align: left;
+    }
+    #intro-paragraph h2{
+        margin-top: 30px;
+        font-family: 'Alegreya', serif;
+        font-size: 40px;
+    }
+    #intro-paragraph p{
+        font-family: 'Alegreya', serif;
+        font-size: 30px;
+    }
 }

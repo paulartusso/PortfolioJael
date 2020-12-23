@@ -2,28 +2,30 @@
     background-image: url(../assets/graphic_contacto.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+    margin-top: 30px;
     height: 100vh;
     display: flex;
     align-items: flex-end;
-    margin-top: 100px;
     padding-bottom: 50px;
 }
 
 .contact-modal-container{
     background-color: #F2D2CC;
-    padding: 50px;
+    padding: 10px;
     width: 100%;
     display: flex;
+    flex-direction: column;
 }
 
 #inputs{
-    width: 50%;
+    width: 100%;
 }
 
 .inputs-container{
     display: flex;
     justify-content: space-between;
+    margin-top: 12px;
 }
 .inputs-container input{
     padding: 8px;
@@ -42,16 +44,44 @@
 }
 
 #contact-info{
-    padding-left: 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
 }
 
-#icons{
+.info-container{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
 }
 
-#icons img{
-    height: 20px;
-    width: 20px;
-    padding: 10px;
+.icon{
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+@media only screen and (min-width: 700px) {
+    #contact{
+        margin-top: 100px;
+    }
+    .contact-modal-container{
+        padding: 50px;
+        display: flex;
+        flex-direction: row !important;
+    }
+    #contact-info{
+        padding-left: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+    .info-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: 'Poppins', sans-serif;
+        color: #333;
+    }
 }
