@@ -81,8 +81,8 @@
         z-index: 1;
     }    
     #intro-paragraph{
-        width: 50%;
-        text-align: left;
+        width: 50% !important;
+        box-sizing: border-box;
     }
     #intro-paragraph h2{
         margin-top: 30px;
