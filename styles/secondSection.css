@@ -1,15 +1,4 @@
 
-#parallax1{
-    background-image:url(../assets/mm.png);
-    background-attachment: fixed;
-    background-position: center center;
-    height: 80vh;
-}
-
-#parallax1 img{
-    max-width: 1200px;
-}
-
 #hello{
     background-image: url(../assets/Trama0.svg);
     background-position: 0 0;
@@ -21,7 +10,7 @@
     color: black;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    font-size: 45px;
+    font-size: 35px;
     letter-spacing: 0px;
     padding-top: 70px;
     z-index: 1;
@@ -47,20 +36,34 @@
 #intro-paragraph{
     width: 80%;
     text-align: left;
-    padding: 30px;
+    padding: 5px;
 }
 
 #intro-paragraph h2{
     font-family: 'Alegreya', serif;
-    font-size: 20px;
+    font-size: 22px;
+    padding-left: 60px;
+    margin: 0;
 }
 
 #intro-paragraph p{
     font-family: 'Alegreya', serif;
-    font-size: 12px;
+    font-size: 20px;
+    padding-left: 60px;
 }
 
 @media only screen and (min-width: 760px) {
+    #parallax1{
+        background-image:url(../assets/mm.png);
+        background-attachment: fixed;
+        background-position: center center;
+        height: 80vh;
+    }
+    
+    #parallax1 img{
+        max-width: 1200px;
+    }
+    
     .title{
         font-size: 100px;
     }
