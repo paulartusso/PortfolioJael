@@ -21,6 +21,7 @@
     width: 100%;
 }
 
+/*contenedor flex cada dos cards*/
 .portfolio-images-container{
     display: flex;
     flex-direction: column;
@@ -28,24 +29,35 @@
     align-items: center;
 }
 
+/*imagen de fondo y margenes*/
 #renew{
-    background-image: url(../assets/r.png);
-    margin-bottom: 25px;
+    background-image: url(../assets/r.png); 
 }
 
 #oda{
-    background-image: url(../assets/mm2.png);
-    margin-bottom: 25px;
+    background-image: url(../assets/mm2.png);   
 }
 
 #mau{
-    background-image: url(../assets/vl.png);
-    margin-bottom: 25px;
+    background-image: url(../assets/vl.png);  
 }
 
 #m{
     background-image: url(../assets/m.png);
-    margin-bottom: 25px;
+}
+
+#gratitud{
+    background-image: url(../assets/g2.png);
+}
+
+#a-r{
+    background-image: url(../assets/ar2.png);
+}
+#e-r{
+    background-image: url(../assets/rev.png);
+}
+#majas{
+    background-image: url(../assets/nii.png);
 }
 
 .portfolio-images-container div{
@@ -53,6 +65,35 @@
     background-size: cover;
     height: 200px;
     width: 250px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+.card:hover{
+    opacity: 0.7;
+}
+
+.details-button{
+    border: none;   
+    width: 50%;
+    height: 35px;
+    background-color: #ffffff70;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5;
+}
+.details-button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+/*hidden div*/
+.hidden{
+    display: none;
 }
 
 .button-container{
@@ -95,21 +136,39 @@
     #renew{
         background-image: url(../assets/r.png);
         margin-right: 15px;
-        margin-bottom: 15px;
     }
     #oda{
         background-image: url(../assets/mm2.png);
-        margin-left: 15px;
-        margin-bottom: 15px;
+        margin-left: 15px;   
     }
     #mau{
         background-image: url(../assets/vl.png);
         margin-right: 15px;
-        margin-top: 15px;
+        margin-top: 20px;
     }
     #m{
         background-image: url(../assets/m.png);
         margin-left: 15px;
-        margin-top: 15px;
+        margin-top: 20px;
+    }
+    #gratitud{
+        background-image: url(../assets/g2.png);
+        margin-right: 15px;
+        margin-top: 20px;
+    }
+    #a-r{
+        background-image: url(../assets/ar2.png);
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    #e-r{
+        background-image: url(../assets/rev.png);
+        margin-right: 15px;
+        margin-top: 20px;
+    }
+    #majas{
+        background-image: url(../assets/nii.png);
+        margin-left: 15px;
+        margin-top: 20px;
     }
 }
