@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="./styles/header.css">
         <link rel="stylesheet" href="./styles/secondSection.css">
         <link rel="stylesheet" href="./styles/portfolio.css">
+        <link rel="stylesheet" href="./styles/modal.css">
         <link rel="stylesheet" href="./styles/blog.css">
         <link rel="stylesheet" href="./styles/contact.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -62,12 +63,12 @@
                     </h1>
                     <div class="portfolio-images-container">
                         <div id="renew" class="card">
-                            <button class="details-button">
+                            <button class="details-button" id="renew-but">
                                 VER PROYECTO
                             </button>
                         </div>
                         <div id="oda" class="card">
-                            <button class="details-button">
+                            <button class="details-button" id="oda-but">
                                 VER PROYECTO
                             </button>
                         </div>
@@ -84,6 +85,41 @@
                             </button>
                         </div>
                     </div>
+
+                    <!--hidden modal with more info (all of it)-->
+
+                    <div class="overlay hidden">
+                        <button id="close-button" onclick="toggleModal()">
+                            x
+                        </button>
+                        <div id="modal-content">
+                            
+                            <div id="renew-info" class="hidden">
+                                <p class="intro">
+                                    CLÍNICA ESTÉTICA QUE CUENTA CON SERVICIOS CAPILARES Y FACIALES.
+                                </p>
+                                <p class="info-par">
+                                    DADA LA TEMÁTICA, Y EL PÚBLICO OBJETIVO AL QUE VA DIRIGIDO, TRABAJAMOS EN 
+                                    CONJUNTO CON EL CLIENTE LA DELICADEZA, CERCANÍA Y LA FEMINEIDAD DE LA MARCA,
+                                    UTILIZANDO UNA TIPOGRAFÍA CURVA Y MANUSCRITA.
+                                </p>
+                            </div>
+
+                            <div id="oda-info" class="hidden">
+                                <p class="intro">
+                                    CLÍNICA ESTÉTICA QUE CUENTA CON SERVICIOS CAPILARES Y FACIALES.
+                                </p>
+                                <p class="info-par">
+                                    DADA LA TEMÁTICA, Y EL PÚBLICO OBJETIVO AL QUE VA DIRIGIDO, TRABAJAMOS EN 
+                                    CONJUNTO CON EL CLIENTE LA DELICADEZA, CERCANÍA Y LA FEMINEIDAD DE LA MARCA,
+                                    UTILIZANDO UNA TIPOGRAFÍA CURVA Y MANUSCRITA.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--Hidden modal til you click on see more button-->
 
                     <div id="hidden-div" class="hidden">
                         <div class="portfolio-images-container">
@@ -112,6 +148,7 @@
                         </div>
                     </div>
 
+
                     <span class="button-container">
                         <button id="cards-button" class="see-more-button" onclick="showCards()">
                             VER MAS
@@ -120,6 +157,7 @@
                 </section>
             </section>
 
+            <!--THere's no blog yet-->
             <section id="blog">
                 <h1>
                     BLOG
@@ -149,8 +187,8 @@
                     <div class="info-container">
                         <i class="fab fa-whatsapp icon"></i>
                         <i class="far fa-envelope-open icon"></i>
-                        <a href="https://www.instagram.com/hellosoyjaecl/" target="blank" id="ig-icon">
-                            <i class="fab fa-instagram icon"></i>
+                        <a href="https://www.instagram.com/hellosoyjaecl/" target="blank" class="icon">
+                            <i class="fab fa-instagram"></i>
                         </a>
                     </div>
                     <div class="info-container">

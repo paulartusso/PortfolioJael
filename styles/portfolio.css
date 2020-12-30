@@ -31,7 +31,7 @@
 
 /*imagen de fondo y margenes*/
 #renew{
-    background-image: url(../assets/r.png); 
+    background-image: url(../assets/r2.png); 
 }
 
 #oda{
@@ -71,6 +71,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15px;
     transition: all 0.3s ease-in-out;
 }
 .card:hover{

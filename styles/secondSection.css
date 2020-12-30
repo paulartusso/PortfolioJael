@@ -20,6 +20,7 @@
 .hello-content-container{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .hello-image{
