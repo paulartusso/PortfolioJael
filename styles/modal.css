@@ -1,7 +1,7 @@
 .overlay{
-    background-color: rgba(0, 0, 0, 0.781);
+    background-color: rgba(255, 255, 255, 0.918);
     font-family: 'Poppins', sans-serif;
-    color: #ffffff;
+    color: black;
     width: 100%;
     height: 100vh;
     z-index: 2;
@@ -13,10 +13,10 @@
 }
 #close-button{
     font-family: 'Poppins', sans-serif;
-    color: #ffffff;
+    color: black;
     border: none;
     background-color: transparent;
-    font-size: 23px;
+    font-size: 15px;
     top: 25px;
     right: 25px;
     position: absolute;
@@ -28,30 +28,140 @@
     align-items: center;
 }
 
-#renew-2{
+.modal-img{
+    width: 100vw;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -100px;
+    box-sizing: border-box;
     padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+
+#modal-renew{
+    background-image: url(../assets/r.png);
+}
+#modal-oda{
+    background-image: url(../assets/mm.jpg);
+}
+#modal-vl{
+    background-image: url(../assets/vl2.png);
+}
+#modal-mau{
+    background-image: url(../assets/m.png);
+}
+#modal-grat{
+    background-image: url(../assets/g3.png);
+}
+#modal-ar{
+    background-image: url(../assets/ar2.png);
+}
+#modal-er{
+    background-image: url(../assets/rev.jpg);
+}
+#modal-maj{
+    background-image: url(../assets/majasfb.png);
+}
+
+.second-img{
+    display:none;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 12px;
 }
 
 .intro{
-    font-size: 20px;
+    margin-top: 33px;
+    font-size: 16px;
     font-weight: 600;
 }
 
-.info-par{
-    font-size: 17px;
-}
 
 @media(min-width: 700px){
     #close-button{
-        top: 50px;
-        right: 80px;
+        top: 40px;
+        right: 45px;
+        transition: all .2s ease-in-out;
+        font-size: 20px;
+    }
+    #close-button:hover { 
+        transform: scale(2.2); 
     }
     .portfolio-images-container{
         display: flex;
         flex-direction: row !important;
         justify-content: center;
     }
-    #renew-2{
-        padding-left: 100px;
+
+    .modal-img{
+        width: 80vw;
+        height: 45vh;
+        margin-left: 100px;
+    }
+    
+    .text-container{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .par{
+        padding-right: 120px !important;
+        font-size: 15px;
+    }
+
+    .intro{
+        font-size: 20px !important;
+    }
+
+    .second-img{
+        display: block;
+        background-position: center;
+        background-size: cover;
+        width: 35%;
+        margin: 40px;
+        height: 250px;
+        float: left;
+        margin-left: 100px;
+    }
+    
+    #second-oda-img{
+        background-image: url(../assets/mm3.png);
+    }
+    #second-renew-img{
+        background-image: url(../assets/r2.png);
+    }
+    #second-vl-img{
+        background-image: url(../assets/vl.png);
+    }
+    #second-mau-img{
+        background-image: url(../assets/m2.png);
+    }
+    #second-grat-img{
+        background-image: url(../assets/g.png);
+    }
+    #second-ar-img{
+        background-image: url(../assets/ar.png);
+    }
+    #second-er-img{
+        background-image: url(../assets/rev.png);
+    }
+    #second-maj-img{
+        background-image: url(../assets/majasbook.jpg);
     }
 }

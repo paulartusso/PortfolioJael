@@ -4,7 +4,7 @@
     background-repeat: repeat;
 }
 #parallax2 h1{
-    color: ffffff;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0px;
     font-size: 40px;
@@ -31,25 +31,20 @@
 
 /*imagen de fondo y margenes*/
 #renew{
-    background-image: url(../assets/r2.png); 
+    background-image: url(../assets/r.png); 
 }
-
 #oda{
     background-image: url(../assets/mm2.png);   
 }
-
 #mau{
     background-image: url(../assets/vl.png);  
 }
-
 #m{
     background-image: url(../assets/m.png);
 }
-
 #gratitud{
     background-image: url(../assets/g2.png);
 }
-
 #a-r{
     background-image: url(../assets/ar2.png);
 }
@@ -57,7 +52,7 @@
     background-image: url(../assets/rev.png);
 }
 #majas{
-    background-image: url(../assets/nii.png);
+    background-image: url(../assets/majasbook.jpg);
 }
 
 .portfolio-images-container div{
@@ -120,6 +115,7 @@
 
 @media only screen and (min-width: 760px) {
     #parallax2 h1{
+        margin: 0;
         font-size: 70px;
         padding: 150px 100px;
     }
@@ -135,40 +131,17 @@
         width: 450px;
     }
     #renew{
-        background-image: url(../assets/r.png);
         margin-right: 15px;
     }
     #oda{
-        background-image: url(../assets/mm2.png);
         margin-left: 15px;   
     }
-    #mau{
-        background-image: url(../assets/vl.png);
+
+    .marg-1{
         margin-right: 15px;
         margin-top: 20px;
     }
-    #m{
-        background-image: url(../assets/m.png);
-        margin-left: 15px;
-        margin-top: 20px;
-    }
-    #gratitud{
-        background-image: url(../assets/g2.png);
-        margin-right: 15px;
-        margin-top: 20px;
-    }
-    #a-r{
-        background-image: url(../assets/ar2.png);
-        margin-left: 15px;
-        margin-top: 20px;
-    }
-    #e-r{
-        background-image: url(../assets/rev.png);
-        margin-right: 15px;
-        margin-top: 20px;
-    }
-    #majas{
-        background-image: url(../assets/nii.png);
+    .marg-2{
         margin-left: 15px;
         margin-top: 20px;
     }
