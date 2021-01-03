@@ -20,6 +20,7 @@
     top: 25px;
     right: 25px;
     position: absolute;
+    text-shadow: 0 0 5px #fff;
 }
 
 #modal-content{
@@ -97,7 +98,7 @@
         top: 40px;
         right: 45px;
         transition: all .2s ease-in-out;
-        font-size: 20px;
+        font-size: 22px;
     }
     #close-button:hover { 
         transform: scale(2.2); 
