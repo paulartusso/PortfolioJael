@@ -55,9 +55,10 @@
 
 @media only screen and (min-width: 760px) {
     #parallax1{
-        background-image:url(../assets/mm.png);
+        background-image:url(../assets/mm-mob.png);
         background-attachment: fixed;
         background-position: center center;
+        background-repeat: no-repeat;
         height: 80vh;
     }
     

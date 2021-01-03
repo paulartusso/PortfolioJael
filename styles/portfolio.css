@@ -31,28 +31,28 @@
 
 /*imagen de fondo y margenes*/
 #renew{
-    background-image: url(../assets/r.png); 
+    background-image: url(../assets/r-mob.png); 
 }
 #oda{
-    background-image: url(../assets/mm2.png);   
+    background-image: url(../assets/mm2-mob.jpg);   
 }
 #mau{
-    background-image: url(../assets/vl.png);  
+    background-image: url(../assets/vl-mob.png);  
 }
 #m{
-    background-image: url(../assets/m.png);
+    background-image: url(../assets/m-mob.jpg);
 }
 #gratitud{
-    background-image: url(../assets/g2.png);
+    background-image: url(../assets/g2-mob.png);
 }
 #a-r{
-    background-image: url(../assets/ar2.png);
+    background-image: url(../assets/ar2-mob.jpg);
 }
 #e-r{
-    background-image: url(../assets/rev.png);
+    background-image: url(../assets/rev-mob.png);
 }
 #majas{
-    background-image: url(../assets/majasbook.jpg);
+    background-image: url(../assets/msbk-mob.png);
 }
 
 .portfolio-images-container div{
